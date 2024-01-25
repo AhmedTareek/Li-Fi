@@ -1,17 +1,24 @@
-# Li-Fi
-1- The sender platform (TM4C123GH6PM) is connected to three sensors
-(Fume Sensor, Ultrasonic Sensor, And Magnetic Sensor).  
-2- If sensors detect any danger (ex: fire, Door is opened, or intrusion). Data
-will be sent over  
-  2.1 The light to the receiver platform, which can be any other board,
-  to turn on alarms represented in a flashing Lamp, buzzer, and a
-  LCD that displays a sentence related to the detected event (ex:
-  “Fire is reported”).  
-  2.2 Bluetooth to a mobile phone (app inventor is an easy option)
-  with the same sentence as the LCD.  
-3- The system has 2 pushbuttons for the start/stop operations. it can be
-closed at any time.  
-4- If any alarm fires, the sounds continue until a mute pushbutton is
-pressed.  
-5- When the mute pushbutton is pressed, all alarms will be turned off after
-5 seconds, but the system is still powered on.   
+Li-Fi Security System
+Overview
+This repository contains the source code and documentation for a Li-Fi based security system. The system is designed to monitor and respond to various environmental dangers using a sender platform (TM4C123GH6PM) connected to three sensors (Fume Sensor, Ultrasonic Sensor, and Magnetic Sensor). When any of the sensors detect a danger, the system sends alerts through both light communication (Li-Fi) to a receiver platform and Bluetooth to a mobile phone.
+
+Features
+Sensor Integration:
+
+Fume Sensor: Detects gas or smoke related to fire.
+Ultrasonic Sensor: Monitors changes in distance, potentially indicating intrusion.
+Magnetic Sensor: Detects changes in magnetic fields, such as the opening of a door.
+Alerting Mechanisms:
+
+Li-Fi Communication (Light):
+Alarms represented by a flashing lamp, buzzer, and LCD display on the receiver platform.
+Bluetooth Communication:
+Sends alerts to a mobile phone using Bluetooth technology, displaying relevant sentences.
+Control Operations:
+
+Start/stop operations controlled by two pushbuttons.
+The system can be closed at any time.
+Alarm Handling:
+
+Continuous sound alerts until a mute pushbutton is pressed.
+Muting the alarms turns off all alerts after a 5-second delay, while keeping the system powered on.
