@@ -1,7 +1,7 @@
 # Li-Fi
 1- The sender platform (TM4C123GH6PM) is connected to three sensors
 (Fume Sensor, Ultrasonic Sensor, And Magnetic Sensor).
-2- If sensors detect any danger (ex: fire, Door is opened, or intrusion). Data
+#2- If sensors detect any danger (ex: fire, Door is opened, or intrusion). Data
 will be sent over
   2.1 The light to the receiver platform, which can be any other board,
   to turn on alarms represented in a flashing Lamp, buzzer, and a
